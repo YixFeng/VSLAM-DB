@@ -1,0 +1,46 @@
+<component name="libraryTable">
+  <library name="workspace">
+    <CLASSES>
+      <root url="file://$USER_HOME$/ws_moveit/src/moveit/moveit_ros/planning" />
+      <root url="file://$USER_HOME$/ws_moveit/src/moveit/moveit_ros/planning_interface" />
+      <root url="file://$USER_HOME$/ws_moveit/src/moveit/moveit_runtime" />
+      <root url="file://$USER_HOME$/ws_moveit/src/moveit/moveit_planners/chomp/chomp_motion_planner" />
+      <root url="file://$USER_HOME$/ws_moveit/src/moveit/moveit_setup_assistant" />
+      <root url="file://$USER_HOME$/ws_moveit/src/geometric_shapes" />
+      <root url="file://$USER_HOME$/ws_moveit/src/moveit/moveit_planners/moveit_planners" />
+      <root url="file://$USER_HOME$/ws_moveit/src/moveit/moveit_ros/moveit_ros" />
+      <root url="file:///opt/ros/melodic/share" />
+      <root url="file://$USER_HOME$/ws_moveit/src/moveit/moveit_ros/move_group" />
+      <root url="file://$USER_HOME$/ws_moveit/src/moveit/moveit_ros/visualization" />
+      <root url="file://$USER_HOME$/ws_moveit/src/srdfdom" />
+      <root url="file://$USER_HOME$/ws_moveit/src/moveit/moveit_experimental" />
+      <root url="file://$USER_HOME$/ws_moveit/src/moveit/moveit_plugins/moveit_plugins" />
+      <root url="file://$USER_HOME$/ws_moveit/src/moveit/moveit_ros/manipulation" />
+      <root url="file://$USER_HOME$/ws_moveit/src/moveit/moveit_ros/perception" />
+      <root url="file://$USER_HOME$/ws_moveit/src/moveit/moveit_planners/chomp/chomp_interface" />
+      <root url="file://$USER_HOME$/ws_moveit/src/rviz_visual_tools" />
+      <root url="file://$USER_HOME$/ws_moveit/src/ompl" />
+      <root url="file://$USER_HOME$/ws_moveit/src/moveit_visual_tools" />
+      <root url="file://$USER_HOME$/ws_moveit/src/moveit_msgs" />
+      <root url="file://$USER_HOME$/ws_moveit/src/moveit/moveit_plugins/moveit_ros_control_interface" />
+      <root url="file://$USER_HOME$/ws_moveit/src/moveit/moveit_kinematics" />
+      <root url="file://$USER_HOME$/ws_moveit/src/moveit/moveit_planners/ompl" />
+      <root url="file://$USER_HOME$/ws_moveit/src/moveit/moveit_ros/warehouse" />
+      <root url="file://$USER_HOME$/ws_moveit/src/moveit/moveit_ros/benchmarks" />
+      <root url="file://$USER_HOME$/ws_moveit/src/moveit_resources" />
+      <root url="file://$USER_HOME$/ws_moveit/src/moveit/moveit_plugins/moveit_fake_controller_manager" />
+      <root url="file://$USER_HOME$/ws_moveit/src/moveit/moveit_ros/occupancy_map_monitor" />
+      <root url="file://$USER_HOME$/ws_moveit/src/moveit/moveit_planners/chomp/chomp_optimizer_adapter" />
+      <root url="file://$USER_HOME$/ws_moveit/src/moveit/moveit_core" />
+      <root url="file://$USER_HOME$/ws_moveit/src/moveit/moveit" />
+      <root url="file://$USER_HOME$/ws_moveit/src/moveit/moveit_ros/robot_interaction" />
+      <root url="file://$USER_HOME$/ws_moveit/src/moveit/moveit_commander" />
+      <root url="file://$USER_HOME$/ws_moveit/src/moveit/moveit_plugins/moveit_controller_manager_example" />
+      <root url="file://$USER_HOME$/ws_moveit/src/moveit/moveit_plugins/moveit_simple_controller_manager" />
+      <root url="file://$USER_HOME$/ws_moveit/src/moveit_tutorials" />
+    </CLASSES>
+    <SOURCES>
+      <root url="file://$USER_HOME$" />
+    </SOURCES>
+  </library>
+</component>

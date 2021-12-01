@@ -1,0 +1,1 @@
+/usr/bin/c++    -rdynamic CMakeFiles/Calculate_quaternion.dir/Calculate_quaternion.cpp.o  -o Calculate_quaternion 

@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="E2Rt"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\..\;CMake Files\..\..\..\..\..\..\;CMake Files\..\..\..\..\..\..\..\;CMake Files\..\..\..\..\..\..\..\..\;CMake Files\..\..\..\..\..\..\..\..\usr\;CMake Files\..\..\..\..\..\..\..\..\usr\local\;CMake Files\..\..\..\..\..\..\..\..\usr\local\share\;CMake Files\..\..\..\..\..\..\..\..\usr\local\share\sophus\;CMake Files\..\..\..\..\..\..\..\..\usr\local\share\sophus\cmake\;CMake Files\src\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/fengyixiao/Dark_Blue/SLAM/course/Complete/PA5/E2Rt/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/fengyixiao/Dark_Blue/SLAM/course/Complete/PA5/E2Rt/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/fengyixiao/Dark_Blue/SLAM/course/Complete/PA5/E2Rt/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/fengyixiao/Dark_Blue/SLAM/course/Complete/PA5/E2Rt/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/fengyixiao/Dark_Blue/SLAM/course/Complete/PA5/E2Rt/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/fengyixiao/Dark_Blue/SLAM/course/Complete/PA5/E2Rt/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/fengyixiao/Dark_Blue/SLAM/course/Complete/PA5/E2Rt/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/fengyixiao/Dark_Blue/SLAM/course/Complete/PA5/E2Rt/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/fengyixiao/Dark_Blue/SLAM/course/Complete/PA5/E2Rt/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/fengyixiao/Dark_Blue/SLAM/course/Complete/PA5/E2Rt/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/fengyixiao/Dark_Blue/SLAM/course/Complete/PA5/E2Rt/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/fengyixiao/Dark_Blue/SLAM/course/Complete/PA5/E2Rt/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/fengyixiao/Dark_Blue/SLAM/course/Complete/PA5/E2Rt/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/fengyixiao/Dark_Blue/SLAM/course/Complete/PA5/E2Rt/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/fengyixiao/Dark_Blue/SLAM/course/Complete/PA5/E2Rt/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="E2Rt">
+				<Option output="/home/fengyixiao/Dark_Blue/SLAM/course/Complete/PA5/E2Rt/cmake-build-debug/src/E2Rt" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/fengyixiao/Dark_Blue/SLAM/course/Complete/PA5/E2Rt/cmake-build-debug/src"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/eigen3"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/fengyixiao/Dark_Blue/SLAM/course/Complete/PA5/E2Rt/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 E2Rt"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/fengyixiao/Dark_Blue/SLAM/course/Complete/PA5/E2Rt/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/fengyixiao/Dark_Blue/SLAM/course/Complete/PA5/E2Rt/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/fengyixiao/Dark_Blue/SLAM/course/Complete/PA5/E2Rt/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="E2Rt/fast">
+				<Option output="/home/fengyixiao/Dark_Blue/SLAM/course/Complete/PA5/E2Rt/cmake-build-debug/src/E2Rt" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/fengyixiao/Dark_Blue/SLAM/course/Complete/PA5/E2Rt/cmake-build-debug/src"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/eigen3"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/fengyixiao/Dark_Blue/SLAM/course/Complete/PA5/E2Rt/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 E2Rt/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/fengyixiao/Dark_Blue/SLAM/course/Complete/PA5/E2Rt/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/fengyixiao/Dark_Blue/SLAM/course/Complete/PA5/E2Rt/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/fengyixiao/Dark_Blue/SLAM/course/Complete/PA5/E2Rt/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/fengyixiao/Dark_Blue/SLAM/course/Complete/PA5/E2Rt/src/E2Rt.cpp">
+			<Option target="E2Rt"/>
+		</Unit>
+		<Unit filename="/home/fengyixiao/Dark_Blue/SLAM/course/Complete/PA5/E2Rt/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/fengyixiao/Dark_Blue/SLAM/course/Complete/PA5/E2Rt/../../../../../../../../usr/local/share/sophus/cmake/SophusConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\..\usr\local\share\sophus\cmake\"/>
+		</Unit>
+		<Unit filename="/home/fengyixiao/Dark_Blue/SLAM/course/Complete/PA5/E2Rt/../../../../../../../../usr/local/share/sophus/cmake/SophusConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\..\usr\local\share\sophus\cmake\"/>
+		</Unit>
+		<Unit filename="/home/fengyixiao/Dark_Blue/SLAM/course/Complete/PA5/E2Rt/../../../../../../../../usr/local/share/sophus/cmake/SophusTargets.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\..\usr\local\share\sophus\cmake\"/>
+		</Unit>
+		<Unit filename="/home/fengyixiao/Dark_Blue/SLAM/course/Complete/PA5/E2Rt/src/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

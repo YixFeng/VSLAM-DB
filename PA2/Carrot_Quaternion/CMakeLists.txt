@@ -1,0 +1,11 @@
+CMAKE_MINIMUM_REQUIRED(VERSION 2.8)
+
+PROJECT(Calculate_quaternion)
+
+SET(CMAKE_BUILD_TYPE "Realease")
+
+ADD_COMPILE_OPTIONS(-std=c++11)
+
+INCLUDE_DIRECTORIES("/usr/include/eigen3")
+
+ADD_EXECUTABLE(${PROJECT_NAME} Calculate_quaternion.cpp)

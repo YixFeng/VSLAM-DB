@@ -1,0 +1,4 @@
+/home/fengyixiao/clion-2019.2.5/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/fengyixiao/Dark_Blue/SLAM/course/Complete/PA4/stereo_vision
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/fengyixiao/Dark_Blue/SLAM/course/Complete/PA4/stereo_vision/cmake-build-debug

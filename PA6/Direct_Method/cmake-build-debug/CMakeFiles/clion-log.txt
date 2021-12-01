@@ -1,0 +1,5 @@
+/home/fengyixiao/clion-2019.2.5/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/fengyixiao/Dark_Blue/SLAM/course/Complete/PA6/Direct_Method
+-- Found OpenCV: /usr/local (found suitable version "4.3.0", minimum required is "4.3") 
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/fengyixiao/Dark_Blue/SLAM/course/Complete/PA6/Direct_Method/cmake-build-debug

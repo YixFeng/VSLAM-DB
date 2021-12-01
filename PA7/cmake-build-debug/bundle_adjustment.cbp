@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="bundle_adjustment"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\..\;CMake Files\..\..\..\..\..\..\;CMake Files\..\..\..\..\..\..\..\;CMake Files\..\..\..\..\..\..\..\usr\;CMake Files\..\..\..\..\..\..\..\usr\local\;CMake Files\..\..\..\..\..\..\..\usr\local\lib\;CMake Files\..\..\..\..\..\..\..\usr\local\lib\cmake\;CMake Files\..\..\..\..\..\..\..\usr\local\lib\cmake\opencv4\;CMake Files\..\..\..\..\..\..\..\usr\local\lib\cmake\Pangolin\;CMake Files\..\..\..\..\..\..\..\usr\local\share\;CMake Files\..\..\..\..\..\..\..\usr\local\share\sophus\;CMake Files\..\..\..\..\..\..\..\usr\local\share\sophus\cmake\;CMake Files\cmake\;CMake Files\src\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/fengyixiao/Dark_Blue/SLAM/course/Complete/PA7/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/fengyixiao/Dark_Blue/SLAM/course/Complete/PA7/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/fengyixiao/Dark_Blue/SLAM/course/Complete/PA7/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/fengyixiao/Dark_Blue/SLAM/course/Complete/PA7/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/fengyixiao/Dark_Blue/SLAM/course/Complete/PA7/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/fengyixiao/Dark_Blue/SLAM/course/Complete/PA7/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/fengyixiao/Dark_Blue/SLAM/course/Complete/PA7/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/fengyixiao/Dark_Blue/SLAM/course/Complete/PA7/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/fengyixiao/Dark_Blue/SLAM/course/Complete/PA7/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/fengyixiao/Dark_Blue/SLAM/course/Complete/PA7/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/fengyixiao/Dark_Blue/SLAM/course/Complete/PA7/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/fengyixiao/Dark_Blue/SLAM/course/Complete/PA7/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/fengyixiao/Dark_Blue/SLAM/course/Complete/PA7/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/fengyixiao/Dark_Blue/SLAM/course/Complete/PA7/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/fengyixiao/Dark_Blue/SLAM/course/Complete/PA7/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="bal_common">
+				<Option output="/home/fengyixiao/Dark_Blue/SLAM/course/Complete/PA7/cmake-build-debug/src/libbal_common.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/fengyixiao/Dark_Blue/SLAM/course/Complete/PA7/cmake-build-debug/src"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/fengyixiao/Dark_Blue/SLAM/course/Complete/PA7/include"/>
+					<Add directory="/usr/local/include/opencv4"/>
+					<Add directory="/usr/local/include/eigen3"/>
+					<Add directory="/usr/include/suitesparse"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/fengyixiao/Dark_Blue/SLAM/course/Complete/PA7/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 bal_common"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/fengyixiao/Dark_Blue/SLAM/course/Complete/PA7/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/fengyixiao/Dark_Blue/SLAM/course/Complete/PA7/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/fengyixiao/Dark_Blue/SLAM/course/Complete/PA7/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="bal_common/fast">
+				<Option output="/home/fengyixiao/Dark_Blue/SLAM/course/Complete/PA7/cmake-build-debug/src/libbal_common.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/fengyixiao/Dark_Blue/SLAM/course/Complete/PA7/cmake-build-debug/src"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/fengyixiao/Dark_Blue/SLAM/course/Complete/PA7/include"/>
+					<Add directory="/usr/local/include/opencv4"/>
+					<Add directory="/usr/local/include/eigen3"/>
+					<Add directory="/usr/include/suitesparse"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/fengyixiao/Dark_Blue/SLAM/course/Complete/PA7/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 bal_common/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/fengyixiao/Dark_Blue/SLAM/course/Complete/PA7/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/fengyixiao/Dark_Blue/SLAM/course/Complete/PA7/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/fengyixiao/Dark_Blue/SLAM/course/Complete/PA7/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="directBA">
+				<Option output="/home/fengyixiao/Dark_Blue/SLAM/course/Complete/PA7/cmake-build-debug/src/directBA" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/fengyixiao/Dark_Blue/SLAM/course/Complete/PA7/cmake-build-debug/src"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/fengyixiao/Dark_Blue/SLAM/course/Complete/PA7/include"/>
+					<Add directory="/usr/include/suitesparse"/>
+					<Add directory="/usr/local/include/opencv4"/>
+					<Add directory="/usr/local/include/eigen3"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/fengyixiao/Dark_Blue/SLAM/course/Complete/PA7/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 directBA"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/fengyixiao/Dark_Blue/SLAM/course/Complete/PA7/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/fengyixiao/Dark_Blue/SLAM/course/Complete/PA7/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/fengyixiao/Dark_Blue/SLAM/course/Complete/PA7/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="directBA/fast">
+				<Option output="/home/fengyixiao/Dark_Blue/SLAM/course/Complete/PA7/cmake-build-debug/src/directBA" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/fengyixiao/Dark_Blue/SLAM/course/Complete/PA7/cmake-build-debug/src"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/fengyixiao/Dark_Blue/SLAM/course/Complete/PA7/include"/>
+					<Add directory="/usr/include/suitesparse"/>
+					<Add directory="/usr/local/include/opencv4"/>
+					<Add directory="/usr/local/include/eigen3"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/fengyixiao/Dark_Blue/SLAM/course/Complete/PA7/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 directBA/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/fengyixiao/Dark_Blue/SLAM/course/Complete/PA7/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/fengyixiao/Dark_Blue/SLAM/course/Complete/PA7/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/fengyixiao/Dark_Blue/SLAM/course/Complete/PA7/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="BAL_BA">
+				<Option output="/home/fengyixiao/Dark_Blue/SLAM/course/Complete/PA7/cmake-build-debug/src/BAL_BA" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/fengyixiao/Dark_Blue/SLAM/course/Complete/PA7/cmake-build-debug/src"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/fengyixiao/Dark_Blue/SLAM/course/Complete/PA7/include"/>
+					<Add directory="/usr/local/include/opencv4"/>
+					<Add directory="/usr/local/include/eigen3"/>
+					<Add directory="/usr/include/suitesparse"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/fengyixiao/Dark_Blue/SLAM/course/Complete/PA7/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 BAL_BA"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/fengyixiao/Dark_Blue/SLAM/course/Complete/PA7/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/fengyixiao/Dark_Blue/SLAM/course/Complete/PA7/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/fengyixiao/Dark_Blue/SLAM/course/Complete/PA7/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="BAL_BA/fast">
+				<Option output="/home/fengyixiao/Dark_Blue/SLAM/course/Complete/PA7/cmake-build-debug/src/BAL_BA" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/fengyixiao/Dark_Blue/SLAM/course/Complete/PA7/cmake-build-debug/src"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/fengyixiao/Dark_Blue/SLAM/course/Complete/PA7/include"/>
+					<Add directory="/usr/local/include/opencv4"/>
+					<Add directory="/usr/local/include/eigen3"/>
+					<Add directory="/usr/include/suitesparse"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/fengyixiao/Dark_Blue/SLAM/course/Complete/PA7/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 BAL_BA/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/fengyixiao/Dark_Blue/SLAM/course/Complete/PA7/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/fengyixiao/Dark_Blue/SLAM/course/Complete/PA7/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/fengyixiao/Dark_Blue/SLAM/course/Complete/PA7/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/fengyixiao/Dark_Blue/SLAM/course/Complete/PA7/src/BAL_BA.cpp">
+			<Option target="BAL_BA"/>
+		</Unit>
+		<Unit filename="/home/fengyixiao/Dark_Blue/SLAM/course/Complete/PA7/src/common.cpp">
+			<Option target="bal_common"/>
+		</Unit>
+		<Unit filename="/home/fengyixiao/Dark_Blue/SLAM/course/Complete/PA7/src/directBA.cpp">
+			<Option target="directBA"/>
+		</Unit>
+		<Unit filename="/home/fengyixiao/Dark_Blue/SLAM/course/Complete/PA7/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/fengyixiao/Dark_Blue/SLAM/course/Complete/PA7/../../../../../../../usr/local/lib/cmake/opencv4/OpenCVConfig-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\usr\local\lib\cmake\opencv4\"/>
+		</Unit>
+		<Unit filename="/home/fengyixiao/Dark_Blue/SLAM/course/Complete/PA7/../../../../../../../usr/local/lib/cmake/opencv4/OpenCVConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\usr\local\lib\cmake\opencv4\"/>
+		</Unit>
+		<Unit filename="/home/fengyixiao/Dark_Blue/SLAM/course/Complete/PA7/../../../../../../../usr/local/lib/cmake/opencv4/OpenCVModules-release.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\usr\local\lib\cmake\opencv4\"/>
+		</Unit>
+		<Unit filename="/home/fengyixiao/Dark_Blue/SLAM/course/Complete/PA7/../../../../../../../usr/local/lib/cmake/opencv4/OpenCVModules.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\usr\local\lib\cmake\opencv4\"/>
+		</Unit>
+		<Unit filename="/home/fengyixiao/Dark_Blue/SLAM/course/Complete/PA7/../../../../../../../usr/local/lib/cmake/Pangolin/PangolinConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\usr\local\lib\cmake\Pangolin\"/>
+		</Unit>
+		<Unit filename="/home/fengyixiao/Dark_Blue/SLAM/course/Complete/PA7/../../../../../../../usr/local/lib/cmake/Pangolin/PangolinConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\usr\local\lib\cmake\Pangolin\"/>
+		</Unit>
+		<Unit filename="/home/fengyixiao/Dark_Blue/SLAM/course/Complete/PA7/../../../../../../../usr/local/lib/cmake/Pangolin/PangolinTargets-release.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\usr\local\lib\cmake\Pangolin\"/>
+		</Unit>
+		<Unit filename="/home/fengyixiao/Dark_Blue/SLAM/course/Complete/PA7/../../../../../../../usr/local/lib/cmake/Pangolin/PangolinTargets.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\usr\local\lib\cmake\Pangolin\"/>
+		</Unit>
+		<Unit filename="/home/fengyixiao/Dark_Blue/SLAM/course/Complete/PA7/../../../../../../../usr/local/share/sophus/cmake/SophusConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\usr\local\share\sophus\cmake\"/>
+		</Unit>
+		<Unit filename="/home/fengyixiao/Dark_Blue/SLAM/course/Complete/PA7/../../../../../../../usr/local/share/sophus/cmake/SophusConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\usr\local\share\sophus\cmake\"/>
+		</Unit>
+		<Unit filename="/home/fengyixiao/Dark_Blue/SLAM/course/Complete/PA7/../../../../../../../usr/local/share/sophus/cmake/SophusTargets.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\usr\local\share\sophus\cmake\"/>
+		</Unit>
+		<Unit filename="/home/fengyixiao/Dark_Blue/SLAM/course/Complete/PA7/cmake/FindCSparse.cmake">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="/home/fengyixiao/Dark_Blue/SLAM/course/Complete/PA7/cmake/FindEigen3.cmake">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="/home/fengyixiao/Dark_Blue/SLAM/course/Complete/PA7/cmake/FindG2O.cmake">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="/home/fengyixiao/Dark_Blue/SLAM/course/Complete/PA7/src/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

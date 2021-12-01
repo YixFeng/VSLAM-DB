@@ -1,0 +1,1 @@
+/usr/bin/c++  -O3 -DNDEBUG  -rdynamic CMakeFiles/Matrix_text.dir/Matrix_text.cpp.o  -o Matrix_text 

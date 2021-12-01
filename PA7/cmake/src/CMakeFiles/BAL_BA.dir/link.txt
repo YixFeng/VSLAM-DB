@@ -1,0 +1,1 @@
+/usr/bin/c++  -std=c++11 -O3 -DNDEBUG  -rdynamic CMakeFiles/BAL_BA.dir/BAL_BA.cpp.o  -o BAL_BA libbal_common.a -lg2o_csparse_extension -lg2o_stuff -lg2o_core -lcxsparse 
